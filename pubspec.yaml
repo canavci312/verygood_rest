@@ -1,0 +1,33 @@
+name: verygood_rest
+description: An app that calls an api shows in list and filters the list
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  auto_route: ^3.2.4
+  bloc: ^8.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  google_news_service:
+    path: packages/google_news_service
+  intl: ^0.17.0
+  news_repository:
+    path: packages/news_repository
+dev_dependencies:
+  auto_route_generator:
+  bloc_test: ^9.0.3
+  build_runner: ^2.1.7
+  flutter_test:
+    sdk: flutter
+  freezed: ">=1.0.0 <1.1.1"
+  json_annotation: ^4.4.0
+  json_serializable: ^6.1.4
+  mocktail: ^0.3.0
+  very_good_analysis: ^2.4.0
+flutter:
+  uses-material-design: true
+  generate: true
