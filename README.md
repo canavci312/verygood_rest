@@ -1,9 +1,3 @@
 # Verygood Rest
-
-![coverage][coverage_badge]
-[![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
-[![License: MIT][license_badge]][license_link]
-
+Used very_good_cli for faster start
 Unit test is written to NewsRepository
-
-
